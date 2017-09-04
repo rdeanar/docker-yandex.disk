@@ -1,5 +1,7 @@
 FROM ubuntu:16.04
 
+MAINTAINER Mikhail Razumovskiy <rdeanar@gmail.com>
+
 RUN apt-get update \
 
     && apt-get install -y wget \
