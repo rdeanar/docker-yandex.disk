@@ -53,7 +53,7 @@ _docker-compose.yml_
 Obtain OAuth token  
 (leave default path to Yandex.Disk folder or change it in volumes section too)
 
-    docker-compose run --rm ya yandex-disk setup
+    docker-compose run --rm ya.disk yandex-disk setup
         
 Then you can run service
     

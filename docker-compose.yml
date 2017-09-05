@@ -1,0 +1,8 @@
+version: "2"
+
+services:
+  ya.disk:
+    image: deanar/yandex.disk
+    volumes:
+      - ./config:/root/.config
+      - ./data:/root/Yandex.Disk
